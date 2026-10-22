@@ -1,0 +1,13 @@
+
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    # Suppress file_picker warnings
+    invalid_implementation_override: ignore
+    
+linter:
+  rules:
+    - avoid_print
+    - prefer_const_constructors
+    - use_key_in_widget_constructors
